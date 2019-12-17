@@ -1,0 +1,135 @@
+/* normalize */
+img{
+    margin: 0;
+}
+/* utilities */
+.u-centerX{
+    width: 100%;
+    margin: auto;
+}
+.fabric{
+    background-size: 22%;
+    background-image: url(../images/fabric.jpg);
+
+}
+.wood{
+    background-size: 70%;
+    background-image: url(http://s3.amazonaws.com/everystockphoto/fspid31/29/71/07/3/tileable-light-wood-2971073-o.jpg);
+}
+/* atoms */
+.header3{
+    font-family: roboto;
+    font-weight: 300;
+    font-size: 40px;
+}
+/* main page styles */
+.pageContainer {
+    font-family:roboto sans-serif;
+}
+.title {
+    border-radius: 31px;
+    border-top-right-radius: 56px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    /* text-decoration: underline; */
+    color: wheat;
+    /* border-top-style: dashed; */
+    background: #00150f47;
+    border: 2px solid #53dbf3e8;
+    border-style: solid;
+    margin-left: 45px;
+    font-size: 46px;
+    padding: 18px;
+    margin: 24px;
+    font-family: roboto;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-shadow: -2px 3px 1px #000000;
+    display: inline-block;
+    border-top-color: #a5e1f9;
+    border-bottom-color: #50a4ab;
+    border-right-color: #79c2d9;
+    box-shadow: -3px 5px 3px #00000087;
+}
+span.subTitle {
+    font-weight: 400;
+    font-size: 22px;
+    color: #f6e999;
+    font-family: roboto;
+    background: #00000038;
+    text-shadow: -2px 1px 2px black;
+}
+header.pageHeader {
+    position: relative;
+    /* background-color: #d2cfbb; */
+    border: 4px outset #b9763282;
+    box-shadow: 0px 2px 2px #000000bd;
+}
+.bodyContainer{
+    max-width: 1200px;
+    margin: auto;
+}
+.mainContent {
+    margin: 0 24px;
+    padding: 24px;
+    background: #ffffffb3;
+    margin-top: -100px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px #00000047;
+}
+.openingMessage{
+    padding: 24px 48px;
+    color: #000000ad;
+    background: #ffcc6699;
+    border-radius: 5px;
+}
+.sellerList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.seller {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background: #336699;
+    width: 30%;
+    margin: 24px 0;
+    box-shadow: 2px 3px 3px #00000096;
+}
+.sellerName {
+    display: inline-block;
+    font-size: 24px;
+    color: black;
+    padding: 9px;
+    text-align: center;
+    width: 100%;
+}
+.sellerDescription{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 24px;
+    background: #ffffff47;
+    display: inline-block;
+}
+.sellerButton{
+    color:white !important;
+}
+.sellerImage{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position-y: center;
+}
+
+.sellerImage.n1{
+    background-position-y: center;
+}
+
+.sellerImage.n4{
+    background-position-y: bottom;
+}
